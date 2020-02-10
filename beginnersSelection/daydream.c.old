@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+int	main(void)
+{
+	char	s[10000];
+	scanf("%s", s);
+	printf("%s\n", s);
+	char	*t[4];
+	t[0] = "dream";
+	t[1] = "dreamer";
+	t[2] = "erase";
+	t[3] = "eraser";
+	for (int i = 0; i < 4; i++)
+		printf("%s\n", t[i]);
+}
